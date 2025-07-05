@@ -43,6 +43,7 @@ jupyter notebook
 Let me know if you'd like me to generate the `requirements.txt` content based on your project libraries!
 
 ## ✅ Conclusion
-Most reviews show a positive sentiment toward the iPhone 15, highlighting performance and camera quality. Some negative reviews mention pricing and battery concerns.
+
+This project analyzed customer reviews for the iPhone 15 128GB on Flipkart using sentiment analysis. The majority of users shared positive feedback on performance, camera quality, and value. However, recurring concerns about price and battery life were also identified. These insights can guide product improvements and help businesses tailor marketing strategies to customer sentiment.
 
 Add project README
