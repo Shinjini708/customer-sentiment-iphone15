@@ -34,8 +34,6 @@ jupyter notebook
 
 ## ▶️ Run the cells to execute the analysis.
 
-Let me know if you'd like me to generate the `requirements.txt` content based on your project libraries!
-
 ## ✅ Conclusion
 
 This project analyzed customer reviews for the iPhone 15 128GB on Flipkart using sentiment analysis. The majority of users shared positive feedback on performance, camera quality, and value. However, recurring concerns about price and battery life were also identified. These insights can guide product improvements and help businesses tailor marketing strategies to customer sentiment.
