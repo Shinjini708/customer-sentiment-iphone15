@@ -24,18 +24,13 @@ This project analyzes customer reviews for the **iPhone 15 128GB** collected fro
 - Rating vs Sentiment correlation
 - Length of review analysis
 
-## ⚙️ Install the required packages:
+## 🛠️ How to Run
 
-pip install -r requirements.txt
-
-## 🚀 Launch the notebook:
-
-jupyter notebook
-
-## ▶️ Run the cells to execute the analysis.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shinjini708/customer-sentiment-iphone15.git
+   cd customer-sentiment-iphone15
 
 ## ✅ Conclusion
 
 This project analyzed customer reviews for the iPhone 15 128GB on Flipkart using sentiment analysis. The majority of users shared positive feedback on performance, camera quality, and value. However, recurring concerns about price and battery life were also identified. These insights can guide product improvements and help businesses tailor marketing strategies to customer sentiment.
-
-Add project README 
