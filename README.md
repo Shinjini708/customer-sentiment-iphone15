@@ -1,36 +1,59 @@
-# 📱 iPhone 15 Sentiment Analysis
+# 📊 Flipkart Customer Sentiment Analysis – iPhone 15 (128GB, Blue)
 
-This project analyzes customer reviews for the **iPhone 15 128GB** collected from **Flipkart**, using sentiment analysis to classify feedback as positive or negative and derive insights from public perception.
+This project analyzes customer sentiment for the **Apple iPhone 15 (128GB, Blue)** using reviews scraped from Flipkart. The goal is to extract, clean, and analyze 300 real customer reviews to derive insights and provide actionable recommendations.
 
-## 🔧 Tools & Libraries Used
 
-- **Selenium** – for web scraping dynamic reviews
-- **BeautifulSoup** – for parsing HTML content
-- **pandas** – for data manipulation
-- **TextBlob** – for sentiment analysis
-- **matplotlib / seaborn** – for visualizations
+## 🔍 Project Highlights
 
-## 📌 Key Objectives
+- ✅ Scraped **300 customer reviews** using Selenium and BeautifulSoup
+- ✅ Cleaned data using Pandas: removed "Read More", extra spaces, and normalized casing
+- ✅ Split reviews into sentences and analysed sentiment using **TextBlob**
+- ✅ Calculated polarity (tone) and subjectivity (opinion vs. fact)
+- ✅ Categorised each review as:
+  - Extremely Positive
+  - Positive
+  - Neutral
+  - Negative
+  - Extremely Negative
+- ✅ Visualised insights and offered recommendations
 
-- Scrape reviews from Flipkart
-- Clean and preprocess textual data
-- Perform sentiment classification
-- Visualise sentiment trends and key insights
 
-## 📊 Highlights
+## 🧰 Technologies Used
 
-- Sentiment distribution of reviews
-- Word clouds for positive & negative words
-- Rating vs Sentiment correlation
-- Length of review analysis
+- Python (Jupyter Notebook)
+- Selenium
+- BeautifulSoup
+- TextBlob
+- Pandas
+- Matplotlib / Seaborn (optional)
 
-## 🛠️ How to Run
+
+## 📈 Key Insights
+
+- **Most reviews are extremely positive**, especially regarding camera and display quality
+- **A few neutral to negative reviews** focused on delivery delays or packaging issues
+- Average polarity score suggests **overall customer satisfaction is high**
+- Subjectivity scores show that reviews are mostly based on personal opinions
+
+
+## 💡 Recommendations
+
+- **Use customer praise in marketing**: Highlight features like camera and performance in ads
+- **Display first-sentence highlights** from reviews for social proof
+- **Improve delivery updates** to reduce negative feedback
+- **Encourage structured reviews** (e.g., prompt customers to rate camera, battery, etc.)
+
+
+## 🙋‍♀️ Author
+
+**Shinjini**  
+Milestone Project | Customer Sentiment Analysis using Python  
+[Flipkart Product: iPhone 15 (128GB, Blue)]
+
+
+## ⚙️ How to Run
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Shinjini708/customer-sentiment-iphone15.git
    cd customer-sentiment-iphone15
-
-## ✅ Conclusion
-
-This project analyzed customer reviews for the iPhone 15 128GB on Flipkart using sentiment analysis. The majority of users shared positive feedback on performance, camera quality, and value. However, recurring concerns about price and battery life were also identified. These insights can guide product improvements and help businesses tailor marketing strategies to customer sentiment.
